@@ -18,11 +18,11 @@ ext_modules = [
 
 setup(name = 'pymruby',
       version = '0.1',
-      description = 'Python Binding for mruby',
+      description = 'Python binding for mruby',
       author = 'Jason Snell',
       author_email = 'jason@snell.io',
       url = 'http://www.ruby.dj',
-      license = 'BSD',
+      license = 'MIT',
       ext_package = '',
       ext_modules = ext_modules
 )
