@@ -7,6 +7,7 @@ import sys
 # TODO: move these over to Nose
 
 foo = pymruby.Pymruby()
+print foo.eval("'RUBY_VERSION: ' + RUBY_VERSION")
 print foo.eval("n=''; n += 'a' * 10**5; 'hi'")
 print foo.eval("__FILE__")
 print foo.eval("loop {}")

@@ -8,7 +8,7 @@ Building this module requires some [slight tweaks](https://github.com/asm/mruby/
 
 Next, compile mruby
 
-    cd mruby && ./minirake
+    cd mruby && make
 
 Now you're ready to build and install the module
 

@@ -17,7 +17,7 @@ ext_modules = [
 ]
 
 setup(name = 'pymruby',
-      version = '0.1',
+      version = '0.2',
       description = 'Python binding for mruby',
       author = 'Jason Snell',
       author_email = 'jason@snell.io',
